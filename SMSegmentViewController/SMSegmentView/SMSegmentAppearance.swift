@@ -41,7 +41,7 @@ open class SMSegmentAppearance: NSObject {
     
     
     // INITIALISER
-    public init() {
+    public override init() {
         
         self.segmentOnSelectionColour = UIColor.darkGray
         self.segmentOffSelectionColour = UIColor.gray

@@ -8,8 +8,8 @@
 
 import UIKit
 
-open class SMSegmentAppearance {
-    
+//  make it can use in OC
+open class SMSegmentAppearance: NSObject {    
     // PROPERTIES
     open var segmentOnSelectionColour: UIColor
     open var segmentOffSelectionColour: UIColor
